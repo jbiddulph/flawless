@@ -46,6 +46,9 @@
                     <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
                     <a class="nav-link py-3 px-0 px-lg-3 js-scroll-trigger" href="#gallery">Gallery</a>
                 </li>
             </ul>
@@ -135,10 +138,9 @@
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>A clinical chemical exfoliation, customised to you.</p>
                                 <iframe width="360" height="203" src="https://www.youtube.com/embed/j5gIolk0Zt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <p>Chemical peels treatment are the next generation of clinical exfoliation. A chemical peel causes intentional damage to the skin with the goal to stimulating new tissue to improve skin texture, firmness, to decrease lines and wrinkles. Peels also even out skin tone and improve acne, redness and reduce pore size.</p>
                                 <p>Peels are recommended every 2 weeks for acne, 3 weeks for hyperpigmentation and rosacea and 4 weeks for anti-aging.</p>
+                                <p><a href="img/pdf/AlumierMD-professional-peels.pdf" target="_blank">Click here to read more about AlumierMD professional peels</a></p>
                             </div>
                         </div>
                     </div>
@@ -537,7 +539,6 @@
     </div>
 </section>
 
-
 <!-- Contact Section -->
 <section class="page-section" id="contact">
     <div class="container">
@@ -591,6 +592,70 @@
 {{--                        <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>--}}
 {{--                    </div>--}}
 {{--                </form>--}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section class="page-section bg-lightergrey portfolio" id="reviews">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-4">Reviews and Recommendations</h2>
+        <div class="reviews" style="display: inline-flex; flex-wrap: wrap;">
+
+            <div class="col-md-6">
+                <blockquote>
+                    “Beyond happy with my skin after the deluxe facial and chemical peel. I can’t wait for my next treatment
+                    Amazing results!
+                    <cite>EH, Deluxe facial and AlumierMD facial- March 20 </cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “I had a wonderful experience today, thank you for your advice on skincare and the consultation process was very informative. Love my cheeks and naturally plump lips. I will definitely be booking with you again. Massive improvement and I’m so pleased I decided to go ahead with your advice”
+                    <cite>EK, Soft tissue dermal fillers, lip and cheek augmentation-February 2020</cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “Amazing results and highly recommend.
+                    I am so happy with my lips and will definitely try other treatments next time”
+                    <cite>NP, Soft tissue dermal fillers, lip augmentation- February 2020 </cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “Flawless service!
+                    Wonderful results. I was made to feel so comfortable and relaxed, it can be an anxious time
+                    getting dermal fillers or any kind of aesthetic procedure, but knowing that Trudi Is not only a
+                    registered nurse with years of experience working in various healthcare fields, she is also
+                    constantly educating herself in the field of aesthetics. Trudi has been trained by the best and
+                    uses top of the line products.
+                    I cannot wait to have more treatments”
+                    <cite>AB, Soft tissue dermal fillers, lip augmentation-January 2020</cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “I had a chemical skin peel and my skin looks amazing, thankyou I will be back”
+                    <cite>ND, Chemical skin peel treatment- May 2019</cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “I had lip fillers and have to thank you for working your magic, can’t recommend you enough”
+                    <cite>ND, Soft tissue dermal fillers, lip augmentation treatment May 2019</cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “I had my first of 4 Sunekos treatments at Flawless medical aesthetics. My skin felt
+                    wonderful, I saw my fine lines disappear leaving my skin with a youthful glow. I can’t wait to
+                    have the next treatment in 7-10 days’ time. Thankyou the treatment was painless, you made
+                    me feel so comfortable.
+                    A true professional”
+                    <cite>MC, post Sunekos rejuvenation treatment- April 2019</cite>
+                </blockquote>
             </div>
         </div>
     </div>

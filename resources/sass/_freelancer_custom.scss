@@ -1,6 +1,7 @@
 $primary: #d5c4d2;
 $primary-tint: rgba(213,196,210, 0.5);
 $light-grey: #adadad;
+$lighter-grey: #d8d8d8;
 $dark-grey: #666666;
 $darker-grey: #333333;
 
@@ -6222,6 +6223,10 @@ a.close.disabled {
 }
 .bg-primary-tint {
     background-color: $primary-tint !important;
+}
+
+.bg-lightergrey {
+    background-color: $lighter-grey !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,

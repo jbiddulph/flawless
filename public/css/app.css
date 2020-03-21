@@ -6748,6 +6748,10 @@ a.close.disabled {
   background-color: rgba(213, 196, 210, 0.5) !important;
 }
 
+.bg-lightergrey {
+  background-color: #d8d8d8 !important;
+}
+
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
