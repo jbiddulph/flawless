@@ -106,8 +106,9 @@
                     <li>Flawless medical is a discreet aesthetic clinic based in Worthing, West Sussex</li>
                     <li>Offering a wide range of high quality aesthetic treatments to make you look and feel rejuvenated,
                         Focusing on natural enhancements.</li>
-                    <li>Using clean chemistry, targeting all skin conditions</li>
                 </ul>
+                <p>Trudi combines her experience in nursing, aesthetics and beauty to provide each client with a unique treatment plan. She never recommends treatments or products she does not use herself. </p>
+                <p>She uses clean chemistry backed by science to target all skin concerns.</p>
             </div>
             <div class="col-lg-3 text-center">
                 <img src="/img/about/trudi_photo.jpg" alt="Trudi" height="350" align="right"><br />
@@ -128,9 +129,9 @@
     <div class="container">
         <!-- Portfolio Section Heading -->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-4">Treatments</h2>
-        <h4 class="mb-5">Flawless Medical Aesthetics believes in offering clients more.
+        <h4 class="mb-5 text-center">Flawless Medical Aesthetics believes in offering clients more.
             A detailed consultation and facial assessment, agreement of a treatment plan and follow up care.
-            Contactable at all times.
+            <br /><br />Contactable at all times.
         </h4>
         <div class="row">
             <div class="col-md-8">
@@ -148,7 +149,9 @@
                             <div class="card-body">
                                 <iframe width="360" height="203" src="https://www.youtube.com/embed/j5gIolk0Zt0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p>Peels are recommended every 2 weeks for acne, 3 weeks for hyperpigmentation and rosacea and 4 weeks for anti-aging.</p>
-                                <p><a href="img/pdf/AlumierMD-professional-peels.pdf" target="_blank">Click here to read more about AlumierMD professional peels</a></p>
+                                <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#alumierProfessionalPeels">
+                                        Click here to read more about AlumierMD professional peels
+                                    </button></p>
                             </div>
                         </div>
                     </div>
@@ -186,6 +189,7 @@
                             <div class="card-body">
                                 <p>Dermapaning is the mechanical exfoliation of skin and fine vellus hairs on the face, using a scalpel blade.</p>
                                 <p>Recommended every 4-6 weeks.</p>
+                                <p><img src="img/treatments/treatment-dermaplaning.png" alt="Treatment and Dermaplaning" width="100%"></p>
                             </div>
                         </div>
                     </div>
@@ -253,8 +257,7 @@
                                 <h5>Treatment areas</h5>
                                 <ul>
                                     <li>Upper face; 1 - 3 areas and or brow lift</li>
-                                    <li>Lower face; Nasalis wrinkles (bunny lines), Gummy smile, smoker’s lines</li>
-                                    <li>Dimpled chin and Nefertiti lift (neck lift)</li>
+                                    <li>Lower face; Nasalis wrinkles (bunny lines), Gummy smile, smoker’s lines, dimpled chin and Nefertiti lift (neck lift)</li>
                                 </ul>
                             </div>
                         </div>
@@ -414,19 +417,19 @@
                     <tbody>
                     <tr>
                         <td>AlumierMD chemical Peels</td>
-                        <td align="right">£70 for a Glow/Radiant</td>
+                        <td align="right"><div class="number">£70</div> for a Glow/Radiant</td>
                     </tr>
                     <tr>
                         <td>Luxury Facial with chemical peel</td>
-                        <td align="right">£85</td>
+                        <td align="right"><div class="number">£85</div></td>
                     </tr>
                     <tr>
                         <td>Pre/post peel customised treatments</td>
-                        <td align="right">£10 each</td>
+                        <td align="right"><div class="number">£10</div> each</td>
                     </tr>
                     <tr>
                         <td>Alumier eye rescue pads</td>
-                        <td align="right">£10 Post peel aftercare kit included</td>
+                        <td align="right"><div class="number">£10</div> Post peel<br /> aftercare kit included</td>
                     </tr>
                     </tbody>
                 </table>
@@ -435,19 +438,43 @@
                     <tbody>
                     <tr>
                         <td>Standard Dermaplaning</td>
-                        <td align="right">£35</td>
+                        <td align="right"><div class="number">£35</div></td>
                     </tr>
                     <tr>
                         <td>Delux facial & Dermaplaning</td>
-                        <td align="right">£75</td>
+                        <td align="right"><div class="number">£75</div></td>
                     </tr>
                     <tr>
                         <td>Alumier eye rescue pads</td>
-                        <td align="right">£10 Post peel aftercare kit included</td>
+                        <td align="right"><div class="number">£10</div> Post peel<br />aftercare kit included</td>
                     </tr>
                     <tr>
-                        <td>Luxuary Dermplaning and Chemical peel facial</td>
-                        <td align="right">£120</td>
+                        <td>
+                            Luxury Dermplaning and Chemical peel facial
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                More information
+                            </button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Treatment and Dermaplaning</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body" style="padding:0px!important;">
+                                            <img src="img/treatments/treatment-dermaplaning.png" alt="Treatment and Dermaplaning" width="100%">
+                                        </div>
+                                        <div class="modal-footer" style="padding-top:10px!important; padding-bottom: 10px!important">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td align="right"><div class="number">£120</div></td>
                     </tr>
                     </tbody>
                 </table>
@@ -456,11 +483,11 @@
                     <tbody>
                     <tr>
                         <td>1 treatment</td>
-                        <td align="right">£150</td>
+                        <td align="right"><div class="number">£150</div></td>
                     </tr>
                     <tr>
                         <td>Advised 4 treatment protocol</td>
-                        <td align="right">£595</td>
+                        <td align="right"><div class="number">£595</div></td>
                     </tr>
                     <tr>
                         <td>Comination BioRepeel C13 chemical peel before Sunekos treatment</td>
@@ -468,7 +495,7 @@
                     </tr>
                     <tr>
                         <td>Combination Sunekos 4 x treatment protocol & BioRepeel C13 chemical peel</td>
-                        <td align="right">£595</td>
+                        <td align="right"><div class="number">£595</div></td>
                     </tr>
 
                     </tbody>
@@ -477,69 +504,69 @@
                 <table class="table">
                     <tr>
                         <td>Nutrakos drinkable sachets</td>
-                        <td align="right">£40 for a box of 30</td>
+                        <td align="right"><div class="number">£40</div> for a box of <div class="number">30</div></td>
                     </tr>
                 </table>
                 <h2>Henna</h2>
                 <table class="table">
                     <tr>
                         <td>Henna brow</td>
-                        <td align="right">£40</td>
+                        <td align="right"><div class="number">£40</div></td>
                     </tr>
                 </table>
                 <h2>Soft tissue dermal fillers </h2>
                 <table class="table">
                     <tr>
                         <td>Lips</td>
-                        <td align="right">£175 for 0.5 mls & £230 per 1 ml depending on product selection </td>
+                        <td align="right"><div class="number">£175</div> for <div class="number">0.5</div> mls & <div class="number">£230</div> per 1 ml depending on product selection </td>
                     </tr>
                     <tr>
                         <td>Cheeks</td>
-                        <td align="right">£240- £300 per ml depending on product selection </td>
+                        <td align="right"><div class="number">£240- £300</div> per ml depending on product selection </td>
                     </tr>
                     <tr>
                         <td>Naso-labial folds</td>
-                        <td align="right">£175</td>
+                        <td align="right"><div class="number">£175</div></td>
                     </tr>
                     <tr>
                         <td>Lines around the mouth <br />(marionette lines)</td>
-                        <td align="right">£170</td>
+                        <td align="right"><div class="number">£170</div></td>
                     </tr>
                     <tr>
                         <td>Hand rejuvenation</td>
-                        <td align="right">£230</td>
+                        <td align="right"><div class="number">£230</div></td>
                     </tr>
                 </table>
                 <h2>Wrinkle treatment consultation </h2>
-                <h4>Deposit required £50 redeemable from treatment price </h4>
+                <h4>Deposit required <div class="number">£50</div> redeemable from treatment price </h4>
                 <table class="table">
                     <tr>
                         <td>3 areas of upper face</td>
-                        <td align="right">From £100- £245 depending on how many areas treated </td>
+                        <td align="right">From <div class="number">£100- £245</div> depending on how many areas </td>
                     </tr>
                     <tr>
                         <td>Brow lift</td>
-                        <td align="right">£120 </td>
+                        <td align="right"><div class="number">£120</div> </td>
                     </tr>
                     <tr>
                         <td>Nasalis wrinkles (bunny lines)</td>
-                        <td align="right">£100</td>
+                        <td align="right"><div class="number">£100</div></td>
                     </tr>
                     <tr>
                         <td>Gummy smile correction</td>
-                        <td align="right">£150</td>
+                        <td align="right"><div class="number">£150</div></td>
                     </tr>
                     <tr>
                         <td>Smokers lines</td>
-                        <td align="right">£150</td>
+                        <td align="right"><div class="number">£150</div></td>
                     </tr>
                     <tr>
                         <td>Dimpled chin</td>
-                        <td align="right">£150</td>
+                        <td align="right"><div class="number">£150</div></td>
                     </tr>
                     <tr>
                         <td>Nefertiti Lift (neck lift)</td>
-                        <td align="right">£295 </td>
+                        <td align="right"><div class="number">£295</div> </td>
                     </tr>
                 </table>
             </div>
@@ -694,13 +721,13 @@
             <div class="col-lg-12">
 
                 <ul class="footer-logos">
-                    <li><img class="img-fluid" src="img/footer/nmc.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/harley.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/alumier.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/bacn.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/aesthetics.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/church-pharmacy.png" alt=""></li>
-                    <li><img class="img-fluid" src="img/footer/cosmetic.png" alt=""></li>
+                    <li><img class="img-fluid" src="img/footer/nmc.png" height="76" width="140" alt="Nursing and Midwifery Council"></li>
+                    <li><img class="img-fluid" src="img/footer/harley.png" height="76" width="140" alt="Harley Academy"></li>
+                    <li><img class="img-fluid" src="img/footer/alumier.png" height="76" width="140" alt="AlumierMD"></li>
+                    <li><img class="img-fluid" src="img/footer/bacn.png" height="76" width="140" alt="British Association of Cosmetic Nurses"></li>
+                    <li><img class="img-fluid" src="img/footer/aesthetics.png" height="76" width="140" alt="Aesthetics logo"></li>
+                    <li><img class="img-fluid" src="img/footer/church-pharmacy.png" height="76" width="140" alt="Church Pharmacy"></li>
+                    <li><img class="img-fluid" src="img/footer/cosmetic.png" height="76" width="140" alt="Cosmetic Insure"></li>
                 </ul>
 
             </div>
@@ -731,8 +758,96 @@
     </a>
 </div>
 
-<!-- Portfolio Modals -->
 
+<!-- Modal -->
+<div class="modal fade" id="alumierProfessionalPeels" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">AlumierMD professional peels</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3>AlumierMD professional peels</h3>
+                <p>AlumierMD peel treatments are the next generation of clinical exfoliation.With a variety of
+                    peels, each with a unique complex of ingredients, Flawless medical aesthetics can
+                    customise your program of treatments to target your specific skin concerns whether it is
+                    aging, pigmentation or acne. This unique experience includes an exfoliation peel treatment,
+                    brightening enhancement followed by prescriptive target serums to reveal a more radiant,
+                    soft and luminous skin.</p>
+                <h3>Glow peel</h3>
+                <p>(Dry, normal, oily, dehydrated, acne, hyperpigmentation & ageing)</p>
+                <p>Glow peel combines lactic acid, salicylic acid and resorcinol, creating a multipurpose
+                    resurfacing solution effect in minimizing the appearance of fine lines, wrinkles and
+                    hyperpigmentation issues like age spots, discolouration and uneven skin tone. This formula
+                    exfoliates dead skin cells and stimulates cell renewal. To suit individual needs, glow peel can
+                    be customised by strength by the number of layers applied.</p>
+                <h3>Vitamin A Boost</h3>
+                <p>(Acne, hyperpigmentation & ageing)</p>
+                <p>Vitamin A boost is a potent and pure retinol and lactic acid resurfacing treatment. It reduces
+                    the appearance of fine lines, wrinkles and hyperpigmentation by boosting collagen
+                    production and speeding cell turnover, creating a more radiant ant even-toned complexion.
+                    Ideal for mature or sun damaged skin.</p>
+                <h3>Detox clear</h3>
+                <p>(Acne & congestion)</p>
+                <p>Detox clear contains salicylic acid and lactic acid for excellent pore penetration and
+                    exfoliation. Salicylic acid penetrates into the pore and exfoliates dead skin cells and excess
+                    sebum. Lactic acid exfoliates dead skin cells and hydrates. Eucalyptus provides strong
+                    astringent properties. Together, they work to smooth skin, minimise pore size, reduce acne
+                    and prevent new pimples forming.</p>
+                <h3>Radiant 20/10</h3>
+                (Acne, hyperpigmentation, uneven skin tone, congestion, open pores and oiliness)
+                With lactic acid and salicylic acid, radiant 20/10 resurfacing peel contains a powerful
+                combination of them both which improves skin tone and texture by exfoliating dead skin cells
+                and speeding cell turnover. This multipurpose resurfacing peel reduces acne pimples and
+                minimizes the appearance of fine lines and wrinkles, large pores, hyperpigmentation and sun
+                damage.
+                <h3>Radiant 30</h3>
+                <p>(Hyperpigmentation, uneven skin tone, dull skin, lines & wrinkles)</p>
+                <p>Radiant 30 is an alpha hydroxyl acid resurfacing peel containing lactic acid to exfoliate dead
+                    skin cells. Boost cell turnover and stimulate collagen, improving skin texture and tone. This
+                    multifunctional peel targets multiple skin conditions, including fine lines and wrinkles,
+                    discolouration, sun damage and large pores.</p>
+                <p>AlumierMD deep moisturising treatment.</p>
+                <p>Deep moisturising treatment is an intensely hydrating and nourishing option that infuses
+                    antioxidants and moisture binding ingredients resulting in plump, soft skin and a dewy
+                    complexion.</p>
+                <h3>AlumierMD Enzyme treatment</h3>
+                <p>Enzyme retexturing treatment is a highly effective fruit enzyme resurfacing solution. The
+                    unique blend of fruit enzymes exfoliates dead skin cells and promotes skin renewal. This
+                    unique experience also includes brightening enhancers. The result is a reduction in the
+                    appearance of fine lines, wrinkles and hyperpigmentation, while soothing and maintaining
+                    hydration.</p>
+                <h3>AlumierMD refining clay treatment</h3>
+                <p>AlumierMD refining treatment is a highly effective treatment to refine and purify the skin. A
+                    unique blend of clay and exfoliating ingredients remove dead skin cells and promotes skin
+                    renewal while clearing trapped oil. This unique experience also includes brightening
+                    enhancers. The result is a reduction in the appearance of blemishes and excess oil, while
+                    soothing and maintaining hydration.</p>
+                <h3>Add on service; Eye rescue treatment</h3>
+                <p>Eye rescue pads are soothing and cooling gel pads to rejuvenate the eye area. This add on
+                    is a must for anyone that is looking to improve the appearance of the appearance of the
+                    delicate eye area. Contains hyaluronic acid to add lost moisture.</p>
+                <strong>
+                    <p>Flawless medical aesthetics is an Alumier MD stockist and skin specialist therefore I
+                        will recommend and prescribe unique products for you to use at home if you desire.
+                        Homecare products and professional treatments work synergistically to improve the
+                        health and beauty of the skin. By combining your customized home care regimen with
+                        potent professional treatments, the result is radiant skin with improvements to tone,
+                        texture and visible signs of ageing.</p>
+                    <p>I will provide my clients with a unique pass code to access the AlumierMD skincare
+                        portal to ensure the correct formulations are advocated (without obligation).</p>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio Modals -->
 <!-- Portfolio Modal 1 -->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
