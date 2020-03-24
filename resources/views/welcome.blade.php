@@ -106,9 +106,10 @@
                     <li>Flawless medical is a discreet aesthetic clinic based in Worthing, West Sussex</li>
                     <li>Offering a wide range of high quality aesthetic treatments to make you look and feel rejuvenated,
                         Focusing on natural enhancements.</li>
+                    <li>Trudi combines her experience in nursing, aesthetics and beauty to provide each client with a unique treatment plan. She never recommends treatments or products she does not use herself. </li>
+                    <li>She uses clean chemistry backed by science to target all skin concerns.</li>
                 </ul>
-                <p>Trudi combines her experience in nursing, aesthetics and beauty to provide each client with a unique treatment plan. She never recommends treatments or products she does not use herself. </p>
-                <p>She uses clean chemistry backed by science to target all skin concerns.</p>
+
             </div>
             <div class="col-lg-3 text-center">
                 <img src="/img/about/trudi_photo.jpg" alt="Trudi" height="350" align="right"><br />
@@ -187,9 +188,8 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Dermapaning is the mechanical exfoliation of skin and fine vellus hairs on the face, using a scalpel blade.</p>
+                                <p>Dermaplaning is the mechanical exfoliation of skin and fine vellus hairs on the face, using a scalpel blade.</p>
                                 <p>Recommended every 4-6 weeks.</p>
-                                <p><img src="img/treatments/treatment-dermaplaning.png" alt="Treatment and Dermaplaning" width="100%"></p>
                             </div>
                         </div>
                     </div>
@@ -491,7 +491,7 @@
                     </tr>
                     <tr>
                         <td>Comination BioRepeel C13 chemical peel before Sunekos treatment</td>
-                        <td align="right">£175</td>
+                        <td align="right"><div class="number">£175</div></td>
                     </tr>
                     <tr>
                         <td>Combination Sunekos 4 x treatment protocol & BioRepeel C13 chemical peel</td>
@@ -583,50 +583,53 @@
 
         <!-- Contact Section Form -->
         <div class="row">
-            <div class="col-lg-8 mx-auto text-center">
-                <h3 class="mt-5 mb-5">07917 33 82 01</h3>
+            <div class="col-lg-4 mx-auto text-center">
+                <h3 class="mt-5 mb-5"><div class="number">07917 33 82 01</div></h3>
                 <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/Flawless-Medical-Aesthetics-274859666779513/">
                     <i class="fab fa-fw fa-facebook-f"></i>
                 </a>
                 <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/flawlessmedaesthetics/">
                     <i class="fab fa-instagram"></i>
                 </a>
+            </div>
+            <div class="col-lg-8 mx-auto">
                 <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-{{--                <form name="sentMessage" id="contactForm" novalidate="novalidate">--}}
-{{--                    <div class="control-group">--}}
-{{--                        <div class="form-group floating-label-form-group controls mb-0 pb-2">--}}
-{{--                            <label>Name</label>--}}
-{{--                            <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">--}}
-{{--                            <p class="help-block text-danger"></p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="control-group">--}}
-{{--                        <div class="form-group floating-label-form-group controls mb-0 pb-2">--}}
-{{--                            <label>Email Address</label>--}}
-{{--                            <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">--}}
-{{--                            <p class="help-block text-danger"></p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="control-group">--}}
-{{--                        <div class="form-group floating-label-form-group controls mb-0 pb-2">--}}
-{{--                            <label>Phone Number</label>--}}
-{{--                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">--}}
-{{--                            <p class="help-block text-danger"></p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="control-group">--}}
-{{--                        <div class="form-group floating-label-form-group controls mb-0 pb-2">--}}
-{{--                            <label>Message</label>--}}
-{{--                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>--}}
-{{--                            <p class="help-block text-danger"></p>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <br>--}}
-{{--                    <div id="success"></div>--}}
-{{--                    <div class="form-group">--}}
-{{--                        <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>--}}
-{{--                    </div>--}}
-{{--                </form>--}}
+                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Email Address</label>
+                            <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Phone Number</label>
+                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            <label>Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-md" id="sendMessageButton">Send</button>
+                    </div>
+                </form>
+
             </div>
         </div>
     </div>
@@ -637,24 +640,32 @@
     <div class="container">
         <h2 class="page-section-heading text-center text-uppercase text-secondary mb-4">Reviews and Recommendations</h2>
         <div class="reviews" style="display: inline-flex; flex-wrap: wrap;">
-
             <div class="col-md-6">
                 <blockquote>
-                    “Beyond happy with my skin after the deluxe facial and chemical peel. I can’t wait for my next treatment
-                    Amazing results!
-                    <cite>EH, Deluxe facial and AlumierMD facial- March 20 </cite>
+                    “I was very nervous about getting lip fillers but Trudi is so professional and puts you at ease with her knowledge and confidence in what she does. I am very impressed, she provided the natural results I was aiming for.
+                    I had a few aftercare questions and Trudi replied ASAP and gave me reassurance and suggestions.
+                    <br />
+                    I highly recommend Flawless medical aesthetics”<br /><br />
+                    <cite>SY,Soft tissue dermal fillers,Lip augmentation- March 2020</cite>
                 </blockquote>
             </div>
             <div class="col-md-6">
                 <blockquote>
-                    “I had a wonderful experience today, thank you for your advice on skincare and the consultation process was very informative. Love my cheeks and naturally plump lips. I will definitely be booking with you again. Massive improvement and I’m so pleased I decided to go ahead with your advice”
+                    “Beyond happy with my skin after the deluxe facial and chemical peel. I can’t wait for my next treatment
+                    Amazing results!”<br /><br />
+                    <cite>EH, Deluxe facial and AlumierMD facial- March 2020 </cite>
+                </blockquote>
+            </div>
+            <div class="col-md-6">
+                <blockquote>
+                    “I had a wonderful experience today, thank you for your advice on skincare and the consultation process was very informative. Love my cheeks and naturally plump lips. I will definitely be booking with you again. Massive improvement and I’m so pleased I decided to go ahead with your advice”<br /><br />
                     <cite>EK, Soft tissue dermal fillers, lip and cheek augmentation-February 2020</cite>
                 </blockquote>
             </div>
             <div class="col-md-6">
                 <blockquote>
                     “Amazing results and highly recommend.
-                    I am so happy with my lips and will definitely try other treatments next time”
+                    I am so happy with my lips and will definitely try other treatments next time”<br /><br />
                     <cite>NP, Soft tissue dermal fillers, lip augmentation- February 2020 </cite>
                 </blockquote>
             </div>
@@ -666,19 +677,19 @@
                     registered nurse with years of experience working in various healthcare fields, she is also
                     constantly educating herself in the field of aesthetics. Trudi has been trained by the best and
                     uses top of the line products.
-                    I cannot wait to have more treatments”
+                    I cannot wait to have more treatments”<br /><br />
                     <cite>AB, Soft tissue dermal fillers, lip augmentation-January 2020</cite>
                 </blockquote>
             </div>
             <div class="col-md-6">
                 <blockquote>
-                    “I had a chemical skin peel and my skin looks amazing, thankyou I will be back”
+                    “I had a chemical skin peel and my skin looks amazing, thankyou I will be back”<br /><br />
                     <cite>ND, Chemical skin peel treatment- May 2019</cite>
                 </blockquote>
             </div>
             <div class="col-md-6">
                 <blockquote>
-                    “I had lip fillers and have to thank you for working your magic, can’t recommend you enough”
+                    “I had lip fillers and have to thank you for working your magic, can’t recommend you enough”<br /><br />
                     <cite>ND, Soft tissue dermal fillers, lip augmentation treatment May 2019</cite>
                 </blockquote>
             </div>
@@ -688,7 +699,7 @@
                     wonderful, I saw my fine lines disappear leaving my skin with a youthful glow. I can’t wait to
                     have the next treatment in 7-10 days’ time. Thankyou the treatment was painless, you made
                     me feel so comfortable.
-                    A true professional”
+                    A true professional”<br /><br />
                     <cite>MC, post Sunekos rejuvenation treatment- April 2019</cite>
                 </blockquote>
             </div>
@@ -705,7 +716,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto justify-content-center text-center">
                 <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824778/Blue_Guide.pdf" target="_blank"><img src="img/capasa.png" alt="CAPASA" width="350" ></a>
-                <h5>Please click on the logo above to understand why I have no before and after images of treatments I have performed</h5>
+                <h5>Please click on the logo above to understand why I have not included before and after treatments</h5>
             </div>
         </div>
 
@@ -733,7 +744,7 @@
             </div>
             <div class="col-lg-12">
                 <div class="container">
-                    <p class="lead mb-0 text-uppercase">Worthing, West Sussex, 07917 33 82 01</p>
+                    <p class="lead mb-0 text-uppercase">Worthing, West Sussex, <div class="number">07917 33 82 01</div></p>
                     <br />
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/Flawless-Medical-Aesthetics-274859666779513/">
                         <i class="fab fa-fw fa-facebook-f"></i>
@@ -764,12 +775,11 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">AlumierMD professional peels</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" style="padding-top: 1rem!important; padding-bottom: 1rem!important;">
                 <h3>AlumierMD professional peels</h3>
                 <p>AlumierMD peel treatments are the next generation of clinical exfoliation.With a variety of
                     peels, each with a unique complex of ingredients, Flawless medical aesthetics can
@@ -839,9 +849,10 @@
                         texture and visible signs of ageing.</p>
                     <p>I will provide my clients with a unique pass code to access the AlumierMD skincare
                         portal to ensure the correct formulations are advocated (without obligation).</p>
+                    <p><img src="img/treatments/alumiermd-products.jpg" alt="AlumierMD Products" width="100%"></p>
 
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer" style="padding-top: 1rem!important;">
                 <button type="button" class="btn btn-primary"  data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -1125,6 +1136,8 @@
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/freelancer.js') }}"></script>
+<script src="{{ asset('js/contact_me.js') }}"></script>
+<script src="{{ asset('js/jqBootstrapValidation.js') }}"></script>
 <script src="{{ asset('js/scrolling-nav.js')}}"></script>
 </body>
 </html>

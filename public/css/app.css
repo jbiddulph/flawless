@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway|Roboto:300&display=swap);@charset "UTF-8";
 
 :root {
   --blue: #007bff;
@@ -1982,8 +1982,8 @@ pre code {
 }
 
 .number {
-  font-family: "Arial" !important;
-  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   display: inline-block;
 }
 
@@ -10958,9 +10958,14 @@ ul.footer-logos li img {
   border-bottom: 1px solid #e9ecef;
 }
 
+p.help-block.text-danger {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
 .floating-label-form-group input,
 .floating-label-form-group textarea {
-  font-size: 1.5em;
+  font-size: 1.2em;
   position: relative;
   z-index: 1;
   padding-right: 0;
