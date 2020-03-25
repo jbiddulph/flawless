@@ -16,7 +16,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
-$to = "taskayatrudi@gmail.com"; // Add your email address inbetween the "" re$
+$to = "john.mbiddulph@gmail.com"; // Add your email address inbetween the "" re$
 $email_subject = "FLAWLESS MEDICAL AESTHETICS";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
 $header = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
