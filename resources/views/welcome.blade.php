@@ -11,6 +11,7 @@
 
         gtag('config', 'UA-161652848-1');
     </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -626,6 +627,7 @@
                     <br>
                     <div id="success"></div>
                     <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LeYyOQUAAAAAFnietUIEOHnDqGdHyESVgFT3G4G"></div>
                         <button type="submit" class="btn btn-primary btn-md" id="sendMessageButton">Send</button>
                     </div>
                 </form>
