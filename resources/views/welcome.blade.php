@@ -580,7 +580,7 @@
     <div class="container">
 
         <!-- Contact Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
 
         <!-- Contact Section Form -->
         <div class="row">
@@ -840,7 +840,7 @@
                     soothing and maintaining hydration.</p>
                 <h3>Add on service; Eye rescue treatment</h3>
                 <p>Eye rescue pads are soothing and cooling gel pads to rejuvenate the eye area. This add on
-                    is a must for anyone that is looking to improve the appearance of the appearance of the
+                    is a must for anyone that is looking to improve the appearance of the
                     delicate eye area. Contains hyaluronic acid to add lost moisture.</p>
                 <strong>
                     <p>Flawless medical aesthetics is an Alumier MD stockist and skin specialist therefore I
