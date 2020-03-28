@@ -1,27 +1,46 @@
 <?php
 // Check for empty fields
 if(empty($_POST['name'])                ||
-    empty($_POST['email'])               ||
-    empty($_POST['phone'])               ||
-    empty($_POST['message'])     ||
-    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+empty($_POST['email'])               ||
+empty($_POST['phone'])               ||
+empty($_POST['message'])     ||
+!filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
 {
-    echo "No arguments Provided!";
-    return false;
+echo "No arguments Provided!";
+return false;
 }
 
+$recipient = "john.mbiddulph@gmail.com";
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email = strip_tags(htmlspecialchars($_POST['email']));
-$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$subject = "FLAWLESS MEDICAL AESTHETICS";
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-// Create the email and send the message
-$to = "john.mbiddulph@gmail.com"; // Add your email address inbetween the "" re$
-$email_subject = "FLAWLESS MEDICAL AESTHETICS";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
-$header = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$header .= "Reply-To: $email";
+if (isset($_POST['email'])) {
+if (preg_match('(\w[-._\w]*\w@\w[-._\w]*\w\.\w{2,})', $_POST['email'])) {
+$msg = 'E-mail address is valid';
+} else {
+$msg = 'Invalid email address';
+}
 
-mail($to,$email_subject,$email_body,$header);
+$ip = getenv('REMOTE_ADDR');
+$host = gethostbyaddr($ip);
+$mess = "Name: ".$name."\n";
+$mess .= "Email: ".$email."\n";
+$mess .= "Subject: ".$subject."\n";
+$mess .= "Message: ".$message."\n\n";
+$mess .= "IP:".$ip." HOST: ".$host."\n";
+
+$headers = "From: <".$email.">\r\n";
+
+if(isset($_POST['url']) && $_POST['url'] == ''){
+
+mail($recipient, $subject, $mess, $headers);
 return true;
-?>
+}
+
+
+
+} else {
+die('Invalid entry!');
+}
