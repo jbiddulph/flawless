@@ -718,7 +718,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto justify-content-center text-center">
                 <a href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824778/Blue_Guide.pdf" target="_blank"><img src="img/capasa.png" alt="CAPASA" width="350" ></a>
-                <h5>Please click on the logo above to understand why I have not included before and after treatments</h5>
+                <h5>Please click on the logo above to understand why I have not included any before and after pictures of treatments</h5>
             </div>
         </div>
 
