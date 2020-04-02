@@ -14,7 +14,8 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="keywords" content="Aesthetics, injectables, skincare worthing, Worthing beauty, skin peels worthing">
+    <meta name="description" content="Skin peels and aesthetic skincare and beauty in Worthing, West Sussex">
     <meta name="author" content="">
 
     <title>Flawless Medical Aesthetics</title>
