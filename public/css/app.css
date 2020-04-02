@@ -44,6 +44,17 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+h1.logo {
+  width: 180px;
+  height: 59px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(/images/flawless-logo.png?94737c7cf3c224f49fd10bc3700ae7e0);
+  color: rgba(248, 249, 250, 0);
+  background-size: 180px 59px;
+  z-index: -1;
+}
+
 article,
 aside,
 figcaption,
